@@ -12,10 +12,10 @@ spec:
   ingressClassName: nginx
   tls:
     - hosts:
-        - old-site.boaz-study.com
+        - old-site.boaz-study.tech
       secretName: old-site-tls
   rules:
-    - host: old-site.boaz-study.com
+    - host: old-site.boaz-study.tech
       http:
         paths:
           - path: /
